@@ -1,0 +1,19 @@
+// Generato da cloud-pulumi: non modificare, viene riscritto a ogni generazione.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "worker-test",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-15",
+  "account_id": "c0398d376da9f390c75fc6d4157fb90a",
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "test-pulumi",
+      "database_id": "32b36163-d9e3-4f38-b8b0-ffe74765dfcb",
+      "migrations_dir": "migrations/test-pulumi"
+    }
+  ]
+}
