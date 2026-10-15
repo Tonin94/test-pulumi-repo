@@ -1,0 +1,27 @@
+[
+  {
+    "name": "user",
+    "entityName": "User",
+    "columns": [
+      {
+        "name": "name",
+        "type": "text",
+        "required": false,
+        "unique": false
+      },
+      {
+        "name": "surname",
+        "type": "text",
+        "required": false,
+        "unique": false
+      },
+      {
+        "name": "email",
+        "type": "text",
+        "required": false,
+        "unique": true,
+        "format": "email"
+      }
+    ]
+  }
+]
